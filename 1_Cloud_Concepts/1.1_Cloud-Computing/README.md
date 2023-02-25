@@ -21,15 +21,15 @@ The responsibilities of maintaining your cloud-hosted applications are shared be
 
 How those responsibilities are split depend on the service you use.  
 
-_You_ will always be responsible for the data you store, as well as who can access the data and on what kind of device (e.g. cell phone, computer, etc.).  
+The consumer will _always_ be responsible for the data you store, as well as who can access the data and on what kind of device (e.g. cell phone, computer, etc.).  
 
-The CSP will always be responsible for the physical data center, physical host (i.e. the computer itself, I think), and physical network.
+The CSP will _always_ be responsible for the physical data center, physical host (i.e. the computer itself, I think), and physical network.
 
-_Infrastructure as a Service (IaaS)_ is a service giving minimal responsiblity to the CSP.
-_Software as a Service (SaaS)_ gives minimal responsiblity to the user.
-_Platform as a Service (PaaS)_ falls somewhere in between.
+_Infrastructure as a Service (IaaS)_ is a service giving minimal responsiblity to the CSP.  
+_Software as a Service (SaaS)_ gives minimal responsiblity to the user.  
+_Platform as a Service (PaaS)_ falls somewhere in between.  
 
-### What responsibilities fall "in-between" a IaaS and Saas?
+### What responsibilities fall "in-between" a IaaS and SaaS?
 1. Identity infrastructue management (e.g. if you use Azure Active Directory vs Auth0 for identity management)
 2. Applications
 3. Network controls (i.e. who can access your cloud-hosted resources on a network level)
@@ -47,10 +47,10 @@ Cloud models "define the deployment type of cloud resources." They're the "types
 	- More control but also more costly.
 2. public: A cloud built, controlled, and maintained by a CSP.
 	- Less control but cost advantages from economies of scale (i.e. hardware resources purchased in "bulk" by CSP, savings distributed to consumers)
-3. hybrid
+3. hybrid: A cloud utilizing both private and public clouds.
 	- Start with private cloud, then surges in demand can be handled by public cloud (because they're quicker to set up).
 
-### What id multicloud?
+### What is multicloud?
 Using multiple CSPs. You may want to use a mish-mash of services. Or you may be migrating from one CSP to another.  
 
 ### Compare cloud pricing models.
