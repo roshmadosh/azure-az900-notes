@@ -4,14 +4,14 @@
 ### Define cloud computing.
 Computing services provided over the internet.
 
-### Give examples of computing services.
+### Extra: Give examples of computing services.
 1. Compute power: Pay for the amount of RAM and quality of processor.
 2. Storage: Pay for how much disk space you use. Added bonus of easily replicating data across several servers. 
 
 ### Extra: Difference between RAM and processor.
 RAM is the maximum "quantity" of work your computer can do at any given time. The processor is the speed at which you do the work.
 
-### Why would I use a cloud service provider?
+### Extra: Why would I use a cloud service provider?
 - Pay only for the services used. 
 - Don't have to manage your own hardware resources.
 - Scale or de-scale quickly.
@@ -29,13 +29,13 @@ _Infrastructure as a Service (IaaS)_ is a service giving minimal responsiblity t
 _Software as a Service (SaaS)_ gives minimal responsiblity to the user.  
 _Platform as a Service (PaaS)_ falls somewhere in between.  
 
-### What responsibilities fall "in-between" a IaaS and SaaS?
+### Extra: What responsibilities fall "in-between" a IaaS and SaaS?
 1. Identity infrastructue management (e.g. if you use Azure Active Directory vs Auth0 for identity management)
 2. Applications
 3. Network controls (i.e. who can access your cloud-hosted resources on a network level)
 4. Operating System (i.e. choosing the underlying OS, updating it, etc.)
 
-### Is the Azure Virtual Machines (VM) service SaaS, PaaS, or IaaS?
+### Extra: Is the Azure Virtual Machines (VM) service SaaS, PaaS, or IaaS?
 IaaS because the user must update and secure the OS, manage network-level accessibility, provide any applications hosted on the VM, and specify how identity management will be provided.
 
 ### Define cloud models, including public, private, and hybrid.
@@ -50,7 +50,7 @@ Cloud models "define the deployment type of cloud resources." They're the "types
 3. hybrid: A cloud utilizing both private and public clouds.
 	- Start with private cloud, then surges in demand can be handled by public cloud (because they're quicker to set up).
 
-### What is multicloud?
+### Extra: What is multicloud?
 Using multiple CSPs. You may want to use a mish-mash of services. Or you may be migrating from one CSP to another.  
 
 ### Compare cloud pricing models.

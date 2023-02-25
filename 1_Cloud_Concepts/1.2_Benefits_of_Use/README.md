@@ -1,12 +1,14 @@
 # Benefits of Using Cloud Services
 
+**Summary**: Be able to describe the difference between the benefits of availability, scalability, reliability, predictability, governence/security, and manageability.
+
 ### Describe the benefits of high availability and scalability in the cloud
 **High Availability**  
 Cloud-hosted applications are expected to be highly available.     
 
 Availability can be measured in percent-uptime. The higher the percent, the more it costs.  
 
-Depending on the service, Azure has different uptime guarantees. These guarantees are defined in documents called _Service Level Agreements_ (SLAs)that are published [periodically](https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services?lang=1).  
+Depending on the service, Azure has different uptime guarantees. These guarantees are defined in documents called _Service Level Agreements_ (SLAs) that are published [periodically](https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services?lang=1).  
 
 If they don't meet this guarantee, they offer a _service credit_ as a percentage of the fees paid for that service. For example, if the monthly uptime percentage of the basic Azure Active Directory service falls under 99.9% but above 99%, you get a 25% service credit.  
 
@@ -52,4 +54,6 @@ The "what" and "how" of managing cloud resources. The training module calls thes
 - APIs 
 - PowerShell
 
+## Additional Reading  
 
+- [Building great solutions with Microsoft Azure Well-Architected Framework](https://learn.microsoft.com/en-us/training/paths/azure-well-architected-framework/) (learning module)
