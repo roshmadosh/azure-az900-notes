@@ -1,5 +1,7 @@
 # Microsoft Azure AZ-900 Certification Notes
 
+Check [virtual training days](https://www.microsoft.com/en-us/trainingdays/azure) for any open seats for the fundamentals course. You will get a voucher to take the exam for free once you complete the course. They're usually filled up though. 
+
 Notes are broken into sections as markdown files. You can read them directly on Github.  
 
 Organized as per the [syllabus](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3VwUY) from 02/25/2023 . Each section tries to directly answer the questions from the syllabus.  
