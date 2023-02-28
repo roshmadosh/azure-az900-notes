@@ -1,7 +1,7 @@
 ### Describe the purpose of Azure Blueprints
 They're ways to define a template on the subscription or resource group level.  
 
-Blueprints are composed of _artifacts_. Artifacts are like the attributes of a blueprint, and can be a policy assignment, role assignment, or Azure Resource Manager template (kind of like a YAML that defines how to create a resource).  
+Blueprints are composed of _artifacts_. Artifacts are like the attributes of a blueprint, and can be a policy assignment, role assignment, or Azure Resource Manager template (infrastructre as code, explained in next section). 
 
 Blueprints can be versioned to keep track of updates made to the blueprint.  
 
