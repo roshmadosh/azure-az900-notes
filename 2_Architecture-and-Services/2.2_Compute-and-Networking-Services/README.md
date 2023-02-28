@@ -5,7 +5,7 @@ VMs require an OS to be "bundled" with it, so it takes longer to spin up than a 
 
 Azure VMs is an IaaS service that provides the ability to create virtual machines. 
 
-**VM Scale Sets** allow for having multiple VMs that are configured the same, are load balanced, and are provisioned/de-provisioned according to demand (automatically or on a pre-configured schedule).   
+**VM Scale Sets** allow you to create _and manage_ multiple VMs that are configured the same, are load balanced, and are provisioned/de-provisioned according to demand (automatically or on a pre-configured schedule). 
 
 **VM Availability Sets** are groupings of VMs to promote high availability. The two ways it groups VMs are by 
 - update domain: Group VMs so that every VM in the group can reboot at the same time during an update without compromising availability. Only one update domain would be rebooted at a time.  
@@ -17,16 +17,20 @@ Hosts a Windows desktop on the cloud that's accessible across devices and OS's.
 - User login to this desktop can be managed from Azure AD.
 - Supports multi-session windows 10 or 11 deployment, which regular VMs can't do.
 
+### What is Azure Batch? 
+A platform for that creates and manages a pool of virtual machines, intended for large-scale _parallel_ and _high-performance computing_.
+  
+
 ### Describe application hosting options, including the Web Apps feature of Azure App Service, containers, and virtual machines
 If you want to host a web application, web api, or mobile application, you can do so using VM's or containers.  
 
-You can also use Azure App Service, which will come with the following things built in:
+You can also use **Azure App Service**, which will come with the following things built in:
 - continuous deployment from a Git repo
 - secured endpoints
 - auto-scaling
 - load balancing
 - supports multiple programming languages
-  
+
 ### Describe virtual networking, including the purpose of Azure Virtual Networks, Azure virtual subnets, peering, Azure DNS, Azure VPN Gateway, and Azure ExpressRoute
 Virtual networks are what allow your resources to communicate with each other, and to your on-premises servers.  
 
@@ -36,9 +40,16 @@ Each vNet is specific to a region. If you need an application to be available ac
 
 Azure virtual **subnets** are ways to split up your vNet. Each subnet has its own subset of IP addresses designated to it from the vNet. The resources you deploy, such as virtual machine, has to be assigned to a specific subnet.  
 
-**VNet peering** and **Azure VPN Gateway** are means by which Azure vNets can communicate with each other. The latter can also connect an onsite vnet to an Azure vnet and encrypts messages passed between them.  
+A **Point-to-Site VPN Gateway** is how a secure connection is established between an Azure VNet and an individual computer.  
 
-**Azure ExpressRoute** is a way to connect vnets without using the public internet. 
+**VNet peering** and **Azure VPN Gateway** are means by which Azure vNets can communicate with each other. The latter is also called a **Site-to-Site VPN Gateway** and can also connect an onsite vnet to an Azure vnet and encrypts messages passed between them.  
+
+**Azure ExpressRoute** is a way to connect vnets without using the public internet. The three models that ExpressRoute supports are:  
+- CloudExchange colocation
+- Point-to-point Ethernet connection 
+- Any-to-any connection
+
+**The main difference between Azure ExpressRoute and S2S VPN Gateway is that the former is _not_ over the internet, while the latter is**.
 
 Vnets also allow you to filter network traffic using **security groups**. You can specify which IP addresses and protocols can access a subnet by configuring the security group it's assigned to.  
 
