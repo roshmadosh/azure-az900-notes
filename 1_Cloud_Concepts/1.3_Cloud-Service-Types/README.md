@@ -1,3 +1,7 @@
+# Describe Cloud Service Types  
+
+Summary: Know the differences between IaaS, PaaS, SaaS.  
+
 ### Describe infrastructure as a service (IaaS)
 Cloud responsible for:
 - hardware
@@ -9,11 +13,11 @@ Client responsible for:
 
 Use-cases:
 - Lift-and-shift: Moving from on-premises to data centers hosted by CSPs
-- For quickly settings up testing or development environments
+- For quickly setting up testing or development environments
   
 ### Describe platform as a service (PaaS)
 Cloud responsible for:
-- IaaS +
+- same as IaaS and
 - maintaining development environment infrastrucure (OS and DB updates and maintenance)
 
 Use-cases:

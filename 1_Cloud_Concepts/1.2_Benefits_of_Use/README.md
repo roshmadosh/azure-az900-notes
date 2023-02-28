@@ -12,8 +12,8 @@ Depending on the service, Azure has different uptime guarantees. These guarantee
 
 If they don't meet this guarantee, they offer a _service credit_ as a percentage of the fees paid for that service. For example, if the monthly uptime percentage of the basic Azure Active Directory service falls under 99.9% but above 99%, you get a 25% service credit.  
 
-99% monthly uptime = 7.2 hours per month  
-99.9% monthly uptime = 43.2 minutes per month  
+99% monthly uptime = 7.2 hours per month downtime  
+99.9% monthly uptime = 43.2 minutes per month downtime 
 
 **Scalablity**  
 Scalability refers to how CSPs can adjust the resources used to meet demand. If there's a sudden surge in demand, Azure can manually or automatically provision more resources to meet the demand. If resources are not being fully utilized, Azure can also scale down to cut costs.  
